@@ -10,8 +10,8 @@ namespace Gamer
     {
         static void Main(string[] args)
         {
-            BaseGamersManager gamersManager = new GamesManager(new MernisServiceAdap());
-            gamersManager.Add(new Gamers { DateOfBirth = new DateTime(1996,1,2), FirstName = "Yalçın", LastName = "Uzun", IdentificationNumber = "19622660911" });
+            IGamerManager gamersManager = new GamersManager(new MernisServiceAdap());
+            gamersManager.Add(new Gamers { DateOfBirth = new DateTime(1996,1,2), FirstName = "Yalçın", LastName = "Uzun", IdentificationNumber = "19622660912" });
             Console.Read();
         }
     }

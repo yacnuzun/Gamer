@@ -48,7 +48,9 @@
     <Compile Include="Bussines\Abstract\IBaseManager.cs" />
     <Compile Include="Bussines\Abstract\ICampaignManager.cs" />
     <Compile Include="Bussines\Abstract\IGameManager.cs" />
-    <Compile Include="Bussines\Concrete\BaseGamersManager.cs" />
+    <Compile Include="Bussines\Concrete\BaseManager.cs" />
+    <Compile Include="Bussines\Concrete\CampaignManager.cs" />
+    <Compile Include="Bussines\Concrete\GamesManager.cs" />
     <Compile Include="Connected Services\ServiceSource\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -64,7 +66,7 @@
     <Compile Include="Entities\Concrete\Campaigns.cs" />
     <Compile Include="Entities\Concrete\Gamers.cs" />
     <Compile Include="Entities\Concrete\Games.cs" />
-    <Compile Include="Bussines\Concrete\GamesManager.cs" />
+    <Compile Include="Bussines\Concrete\GamersManager.cs" />
     <Compile Include="Bussines\Abstract\IGamerCheckService.cs" />
     <Compile Include="Bussines\Abstract\IGamerManager.cs" />
     <Compile Include="Adapter\MernisServiceAdap.cs" />

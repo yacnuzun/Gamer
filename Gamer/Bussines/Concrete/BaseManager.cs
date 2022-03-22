@@ -4,11 +4,11 @@ using System;
 
 namespace Gamer
 {
-    public class BaseGamersManager : IBaseManager
+    public abstract class BaseManager : IBaseManager
     {
         public virtual void Add(IEntity entity)
         {
-            Console.WriteLine(" Added");
+            Console.WriteLine("Added");
         }
 
         public void Delete(IEntity entity)
